@@ -1,0 +1,19 @@
+/*this is custom css */
+
+
+img{
+	width:100%;
+}
+
+.message{
+	width: 100%;
+	height: 300px;
+
+}
+ .active{
+    background: #333; color: aqua !important; opacity: 0.5;
+}
+
+nav{
+    background:background url(../img/nav_bac.fw.png) no-repeat;
+}

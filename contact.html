@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>roshans site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/animate.min.css.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/custom.css" />
+<style type="text/css">
+body { 
+  background: url(img/bg_con.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/0001-home.png" alt=""></a>
+    </div> 
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Profile</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
+                <ul class="dropdown-menu active">
+                    <li><a target="_blank" class="active" href="https://www.facebook.com/roshan97O">Facebook</a></li>
+                    <li><a target="_blank" class="active" href="https://www.youtube.com/channel/UCYJ2b5ypoROuU4umIgSS3Fw">Youtube</a></li>
+                    <li><a target="_blank" class="active" href="https://plus.google.com/+Roshanlamichhane97/posts">Google+</a></li>
+                    <li><a target="_blank" class="active" href="https://www.linkedin.com/in/roshanlamichhane">LinkedIn</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>    
+</nav>
+<!-- End Navigation -->
+
+<div style="background: #fff; opacity: 0.6; width: 100%; height: 640px; margin: 0 auto;">
+    <br /><br /><br /><br />
+    <div style="width:50%; margin: 0 auto">
+        <form action="process.php" method="post">
+        <label>Name</label>
+        <input type="text" name="name" style="width:100%;" required><br /><br/>
+        <label>email</label>
+        <input type="text" name="email" style="width:100%;" required><br /><br/>
+        <label>Message</label><br />
+        <textarea name="message" rows="5" style="width: 100%;"></textarea><br /><br/>
+        <input type="submit" value="SEND" class="btn btn-info" />
+    </form>
+    </div>
+</div>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jQuery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('.myTooltip').tooltip({
+            selector: "[data-toggle=tooltip]",
+            container: "body"
+        })
+    })
+</script>
+    
+    
+    
+</body>
+</html>
